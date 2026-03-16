@@ -1,5 +1,3 @@
-/* Adicionar aqui toda a estilização criada para sua aplicação. */
-
 body {
     margin: 0;
     padding: 0;
@@ -62,7 +60,7 @@ body {
 
 .banner {
     height: 400px;
-    background-image: url('../assets/banner-fundo.jpeg');
+    background-image: url('../assets/imgs/banner-fundo.jpeg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -102,14 +100,14 @@ body {
     transition: 0.4s ease-in-out;
 }
 
-.icone-luz { background-image: url('../assets/lightbulb.png'); }
-.icone-luz:hover { background-image: url('../assets/lightbulb_color.png'); transform: scale(1.1); }
+.icone-luz { background-image: url('../assets/icon/lightbulb.png'); }
+.icone-luz:hover { background-image: url('../assets/icon/lightbulb_color.png'); transform: scale(1.1); }
 
-.icone-planeta { background-image: url('../assets/planet-earth.png'); }
-.icone-planeta:hover { background-image: url('../assets/planet-earth_color.png'); transform: scale(1.1); }
+.icone-planeta { background-image: url('../assets/icon/planet-earth.png'); }
+.icone-planeta:hover { background-image: url('../assets/icon/planet-earth_color.png'); transform: scale(1.1); }
 
-.icone-crescimento { background-image: url('../assets/growth.png'); }
-.icone-crescimento:hover { background-image: url('../assets/growth_color.png'); transform: scale(1.1); }
+.icone-crescimento { background-image: url('../assets/icon/growth.png'); }
+.icone-crescimento:hover { background-image: url('../assets/icon/growth_color.png'); transform: scale(1.1); }
 
 .equipe {
     padding: 40px 0;
@@ -179,7 +177,8 @@ body {
 
 .login {
     height: 85vh;
-    background-image: url('../assets/bg-jelly-fish-para-home.png');
+    /* Caminho para a pasta imgs */
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -187,7 +186,7 @@ body {
 }
 
 .card-cadastro {
-    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png') !important;
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png') !important; 
     background-size: cover;
 }
 
